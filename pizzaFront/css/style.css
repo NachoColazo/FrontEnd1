@@ -6,6 +6,17 @@
     font-family: Roboto;
 }
 
+/* :root {
+    --logo: red;
+    --red: white;
+    --blue: blue;
+    --green: green;
+} */
+
+/* header{
+    background-color: var(--logo);
+} */
+
 header {
     background-color: #222222;
     height: 100px;
