@@ -41,19 +41,109 @@
     </header>
     <!-- -- SLIDE -- -->
     <main>
-        <div class="slide">
-            <div class="contenedorslide">
+        <section class="slide">
+            <d
+            iv class="contenedorslide">
                 <p class="pslide">¡Es un placer tenerte aquí!</p>
                 <p>¡Comederos en descuento!</p>
-                <button class="btnslide">COMEDEROS</button>
+                    <button class="btnslide" type="submit" value="comederos">COMEDEROS</button>
+            </d>
+        </section>
+        <section class="products">
+            <div class="contenedorproducts">
+                <img src="./img/pawprint 1.svg" alt="Logo Huella">
+                <h2>Productos Destacados</h2>
+                <ul>
+                    <li>Comederos</li>
+                    <li>-</li>
+                    <li>Accesorios</li>
+                    <li>-</li>
+                    <li>Comida</li>
+                </ul>
+            </div>
+        </section>
+        <section class="toys">
+            <div class="contenedortoys">
+                <article>
+                    <img src="./img/churrasquito.png" alt="Foto churrasquitos">
+                    <p>Juguete Churrasquito</p>
+                    <span>$150</span>
+                </article>
+                <!-- - -->
+                <article>
+                    <img src="./img/comedero.png" alt="Foto comedero">
+                    <p>Comedero para perro</p>
+                    <span>$250</span>
+                </article>
+                <!-- - -->
+                <article>
+                    <img src="./img/Huesito.png" alt="Foto huesitos">
+                    <p>Juguete Huesito</p>
+                    <span>$650</span>
+                </article>
+            </div>
+        </section>
+        <section class="form">
+            <div class="contenedorform">
+                <h2>Contáctanos</h2>
+                <form action="#">
+                    <fieldset>
+                        <input type="text" placeholder="Nombre y Apellido" required>
+                        <input type="email" placeholder="Ingresá tu correo electrónico" required>
+                        <input type="tel" placeholder="Teléfono" required>
+                    </fieldset>
+                    <input class="btnReset" type="reset" value="Resetear">
+                    <input class="btnSend" type="submit" value="Enviar">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footerMail">
+            <div class="divFooterMail">
+                <img src="./img/mailEnvio.svg" alt="Logo suscripción">
+                <h3>Suscríbete para más novedades</h3>
+            </div>
+            <form class="formFooterMail" action="#">
+                <input type="email" placeholder="Ingresá tu correo electronico" required>
+                <input class="btnFooter" type="submit" value="Suscribirme">
+            </form>             
+        </div>
+        <div class="footerContact">
+            <div class="divFooterContact">
+
+                <div class="divFooterContactContainer">
+                    <img src="./img/localidad.png" alt="Logo Localidad">
+                    <div>
+                        <h4>Localidad</h4>
+                        <p>Calle - provincia</p>
+                    </div>
+                </div>
+
+                <div class="divFooterContactContainer">
+                    <img src="./img/telefono.png" alt="Logo Teléfono">
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>Número de teléfono</p>
+                    </div>
+                </div>
+
+                <div class="divFooterContactContainer">
+                    <img src="./img/correo.png" alt="Logo Correo">
+                    <div>
+                        <h4>Correo Electrónico</h4>
+                        <p>Dirección de correo</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/LogoFooter.png" alt="Logo PetShop">
             </div>
         </div>
-    </main>
-
-
-
-
-
-    <footer></footer>
+        <div class="footerCopyright">
+            <p>Todos los derechos reservados Front End</p>
+        </div>
+    </footer>
 </body>
 </html>

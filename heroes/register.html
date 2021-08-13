@@ -10,27 +10,30 @@
 <body>
     <aside><h3>20% de descuento en todos los productos!</h3></aside>
     <header>
-        <img src="./img/OBJECTS.svg" alt="Logo Login">
-        <h1>Nombre Tienda</h1>
+        <a href="./index.html">
+            <img src="./img/OBJECTS.svg" alt="Logo Login">
+            <h1>Nombre Tienda</h1>
+        </a>
     </header>
     <main>
         <section>
                 <h2>Registro</h2>
-                <form action="#">
+                <form action="./login.html">
                     <fieldset class="inputLogin">
                         <input type="text" placeholder="Nombre y Apellido" required>
                         <input type="email" placeholder="Correo Electrónico" required>
                         <input type="password" placeholder="Contraseña" required>
                         <select class="desplegable" name="select">
-                            <optgroup label="País">
-                                <option value="value1">Argentina</option>
-                                <option value="value2">Colombia</option>
-                                <option value="value3">Brasil</option>
+                            <optgroup>
+                                <option value="Pais" selected disabled>País</option>
+                                <option value="Argentina">Argentina</option>
+                                <option value="Colombia">Colombia</option>
+                                <option value="Brasil">Brasil</option>
                             </optgroup>
                         </select>
                     </fieldset>
-                    <input class="btnReset" type="button" value="Resetear">
-                    <input class="btnRegister" type="button" value="Registrar">
+                    <input class="btnReset" type="reset" value="Resetear">
+                    <input class="btnRegister" type="submit" value="Registrar">
                     <!-- <button class="btnForm">Entrar</button> -->
                     <p class="pRegister">¿Ya tenés una cuenta?<a href="./login.html"> Ingresá</a></p>
                 </form>

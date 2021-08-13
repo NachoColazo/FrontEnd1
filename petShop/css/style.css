@@ -3,7 +3,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: 'Roboto';
 }
 
 /* -- ASIDE -- */
@@ -55,7 +55,8 @@ header div .logoheader{
     margin-left: 40px;
 }
 
-main div.slide{
+/* -- SLIDE -- */
+main section.slide{
     background-image: url("../img/bowl-and-pet-daities-on-green-background\ 1.png");
     background-repeat: no-repeat;
     background-color: rgb(151,217,177);
@@ -76,11 +77,11 @@ main div.slide{
     border-radius: 5px;
 }
 
-div.slide div.contenedorslide{
+section.slide div.contenedorslide{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: center;
+    align-items: center;
     margin-right: 260px;
 }
 
@@ -95,18 +96,280 @@ div.slide div.contenedorslide{
 .btnslide{
     background-color: #F0A83E;
     color: #FFFFFF;
-    border-bottom: none;
+    border: none;
     border-radius: 5px;
     font-size: 16px;
     padding: 15px 23px;
     width: 141px;
-    margin: auto;
 }
 
-p{
-    font-style: ;
+/* -- PRODUCTS -- */
+main section.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-p{
-    font-weight: ;
+div.contenedorproducts h2{
+    font-size: 40px;
+    font-weight: 700;
 }
+
+main section.products div.contenedorproducts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.products div.contenedorproducts ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+section.products div.contenedorproducts ul li{
+    margin: 10px;
+    color: #666666;
+}
+
+section.products div.contenedorproducts img{
+    margin-top: 20px;
+}
+
+/* -- TOYS -- */
+main section.toys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.toys div.contenedortoys{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main section.toys div.contenedortoys article{
+    background-color: #FBFAF6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section.toys div.contenedortoys article{
+    font-weight: bold;
+    margin: 50px 10px 70px;
+}
+
+main section.toys div.contenedortoys article p{
+    color: #3C2313;
+}
+
+main section.toys div.contenedortoys article span{
+    color: #F0A83E;
+}
+
+/* -- FORM -- */
+main section.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main section.form div.contenedorform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section.form div.contenedorform form fieldset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section.form div.contenedorform h2{
+    color: #3C2313;
+    font-size: 25px;
+}
+
+main section.form div.contenedorform form{
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+main section.form div.contenedorform form input{
+    color: #FFFFFF;
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    border: none;
+    font-size: 16px;
+}
+
+main section.form div.contenedorform form fieldset{
+    border:none;
+    margin: 20px 0px 41px;
+}
+
+main section.form div.contenedorform form fieldset input{
+    background-color: #3C2313;
+    color: #FFFFFF;
+    border-radius: 15px;
+    width: 340px;
+    height: 40px;
+    border:none;
+    padding: 0px 14px;
+    margin: 5px;
+    font-size: 10px;
+}
+
+main section.form div.contenedorform form .btnReset{
+    background-color: #8A8787;
+    margin-right: 3px;
+}
+
+main section.form div.contenedorform form .btnSend{
+    background-color: #F0A83E;
+    margin-left: 3px;
+}
+
+/* -- FOOTER MAIL -- */
+footer div.footerMail{
+    background-color: #F0A83E;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.footerMail .divFooterMail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footerMail .divFooterMail img{
+    margin: 10px;
+}
+
+footer div.footerMail .divFooterMail h3{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+footer div.footerMail .formFooterMail{
+    margin: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div.footerMail .formFooterMail input{
+    border: none;
+    border-radius: 15px;
+    padding: 8px;
+    Width: 300px;
+    Height: 25px;
+    font-size: 10px;
+}
+
+footer div.footerMail .formFooterMail input.btnFooter{
+    Width: 70px;
+    Height: 34px;
+    background-color: #3C2313;
+    color: #FFFFFF;
+    margin: 5px;
+    
+}
+
+/* -- FOOTER CONTACT -- */
+footer div.footerContact{
+    background-color: #3C2313;
+    height: 284px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 70px;
+}
+
+footer div.footerContact .divFooterContact .divFooterContactContainer{
+    display: flex;
+    margin: 20px
+}
+
+footer div.footerContact .divFooterContact .divFooterContactContainer div{
+    margin: 0px 25px;
+}
+
+footer div.footerContact .divFooterContact .divFooterContactContainer h4{
+    font-size: 20px;
+    color:#FFFFFF;
+}
+
+footer div.footerContact .divFooterContact .divFooterContactContainer p{
+    font-size: 10px;
+    color: #8A8787;
+}
+
+/* -- FOOTER COPYRIGHT -- */
+footer div.footerCopyright{
+    background-color: #222222;
+    height: 20px;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 10px;
+}
+
+/* -- RESPONSIVE HEADER -- */
+@media(max-width:542px){
+    body div.topbar{
+        display: none;
+    }
+    header{
+        justify-content: space-between;
+        padding: 0px 40px
+    }
+    header div .logoheader{
+        margin-left: 0px;
+    }
+    header nav ul{
+        display: none;
+    }
+    header nav{
+        background-image: URL(../img/hamburger.svg);
+        height: 20px;
+        width: 20px;
+    }
+/* -- RESPONSIVE SLIDE -- */
+    main section.slide{
+        background-image: URL(../img/bowl-and-pet-responsive.png);
+        background-size: cover;
+        height: 440px;
+    }
+    section.slide div.contenedorslide{
+        margin: 25px;
+        align-items: flex-end
+    }
+/* -- RESPONSIVE PRODUCTS -- */
+    section.products div.contenedorproducts img{
+        width: 110px;
+        height: 83,95px;
+    }
+/* -- RESPONSIVE TOYS -- */
+    section.toys div.contenedortoys{
+        margin: 0px;
+    }
+    
+}
+
+
+    
+
